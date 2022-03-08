@@ -11,6 +11,16 @@
 		D7B8062927D7F0E80024D757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8062827D7F0E80024D757 /* ContentView.swift */; };
 		D7B8062B27D7F0F00024D757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B8062A27D7F0F00024D757 /* Assets.xcassets */; };
 		D7B8062E27D7F0F00024D757 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B8062D27D7F0F00024D757 /* Preview Assets.xcassets */; };
+		D7B8064027D7F1460024D757 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063527D7F1450024D757 /* GradientRectangles.swift */; };
+		D7B8064127D7F1460024D757 /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063627D7F1450024D757 /* HypocycloidView.swift */; };
+		D7B8064227D7F1460024D757 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063727D7F1450024D757 /* CurvesView.swift */; };
+		D7B8064327D7F1460024D757 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063827D7F1450024D757 /* PathView.swift */; };
+		D7B8064427D7F1460024D757 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063927D7F1450024D757 /* MainView.swift */; };
+		D7B8064527D7F1460024D757 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063A27D7F1450024D757 /* AwardsView.swift */; };
+		D7B8064627D7F1460024D757 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063C27D7F1450024D757 /* Award.swift */; };
+		D7B8064727D7F1460024D757 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063D27D7F1450024D757 /* HorizontalGridView.swift */; };
+		D7B8064827D7F1460024D757 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063E27D7F1450024D757 /* VerticalGridView.swift */; };
+		D7B8064927D7F1460024D757 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8063F27D7F1450024D757 /* CustomGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		D7B8062827D7F0E80024D757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7B8062A27D7F0F00024D757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B8062D27D7F0F00024D757 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7B8063527D7F1450024D757 /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		D7B8063627D7F1450024D757 /* HypocycloidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
+		D7B8063727D7F1450024D757 /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		D7B8063827D7F1450024D757 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		D7B8063927D7F1450024D757 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D7B8063A27D7F1450024D757 /* AwardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		D7B8063C27D7F1450024D757 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		D7B8063D27D7F1450024D757 /* HorizontalGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		D7B8063E27D7F1450024D757 /* VerticalGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		D7B8063F27D7F1450024D757 /* CustomGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,10 @@
 			children = (
 				D7B8062627D7F0E80024D757 /* AwardCollectionApp.swift */,
 				D7B8062827D7F0E80024D757 /* ContentView.swift */,
+				D7B8063927D7F1450024D757 /* MainView.swift */,
+				D7B8063A27D7F1450024D757 /* AwardsView.swift */,
+				D7B8063427D7F1450024D757 /* Awards */,
+				D7B8063B27D7F1450024D757 /* Grids */,
 				D7B8062A27D7F0F00024D757 /* Assets.xcassets */,
 				D7B8062C27D7F0F00024D757 /* Preview Content */,
 			);
@@ -65,6 +89,28 @@
 				D7B8062D27D7F0F00024D757 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7B8063427D7F1450024D757 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				D7B8063527D7F1450024D757 /* GradientRectangles.swift */,
+				D7B8063627D7F1450024D757 /* HypocycloidView.swift */,
+				D7B8063727D7F1450024D757 /* CurvesView.swift */,
+				D7B8063827D7F1450024D757 /* PathView.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		D7B8063B27D7F1450024D757 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				D7B8063C27D7F1450024D757 /* Award.swift */,
+				D7B8063D27D7F1450024D757 /* HorizontalGridView.swift */,
+				D7B8063E27D7F1450024D757 /* VerticalGridView.swift */,
+				D7B8063F27D7F1450024D757 /* CustomGridView.swift */,
+			);
+			path = Grids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B8064527D7F1460024D757 /* AwardsView.swift in Sources */,
+				D7B8064227D7F1460024D757 /* CurvesView.swift in Sources */,
+				D7B8064727D7F1460024D757 /* HorizontalGridView.swift in Sources */,
+				D7B8064927D7F1460024D757 /* CustomGridView.swift in Sources */,
+				D7B8064427D7F1460024D757 /* MainView.swift in Sources */,
+				D7B8064327D7F1460024D757 /* PathView.swift in Sources */,
+				D7B8064827D7F1460024D757 /* VerticalGridView.swift in Sources */,
 				D7B8062927D7F0E80024D757 /* ContentView.swift in Sources */,
 				D7B8062727D7F0E80024D757 /* AwardCollectionApp.swift in Sources */,
+				D7B8064127D7F1460024D757 /* HypocycloidView.swift in Sources */,
+				D7B8064027D7F1460024D757 /* GradientRectangles.swift in Sources */,
+				D7B8064627D7F1460024D757 /* Award.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
